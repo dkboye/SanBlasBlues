@@ -17,3 +17,29 @@ textarea {
   border-style: solid;
   border-width: 1px;
 }
+
+.main-title
+{
+     text-align: center;
+     
+}
+.para
+{
+     text-align: center;
+}
+.table
+{
+    margin: 25px 50px 75px 100px;
+}
+.h3
+{
+    margin-left:100px;
+    font-family: Helvetica Nueu, segoi UI, sans-serif;
+    font-size: 20px;
+}
+.h2
+{
+    margin-left:75px;
+    font-family: Helvetica Nueu, segoi UI, sans-serif;
+    font-size: 25px;
+}

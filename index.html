@@ -1,32 +1,25 @@
-{% extends "layout.html" %}
+<!DOCTYPE html>
 
-{% block body %}
-    <h2>Band</h2>
-
-    <button class="btn btn-sm btn-outline-primary" id="inbox">Inbox</button>
-    <button class="btn btn-sm btn-outline-primary" id="compose">Compose</button>
-    <button class="btn btn-sm btn-outline-primary" id="sent">Sent</button>
-    <button class="btn btn-sm btn-outline-primary" id="archived">Archived</button>
-    <hr>
-
-    <div id="emails-view"></div>
-
-    <div id="emails-view-list"></div>
-
-    <div id="content-view"></div>
-
-    <div id="compose-view"></div>
-
-{% endblock %}
-
-{% block script %}
-    <script src="{% 'band.js' %}"></script>
-{% endblock %}
-<!-- <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>San Blas Blues</title>
+    </head>
     <body>
-        <h2>
-            Set List
-        </h2>
+      <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+    <li class="breadcrumb-item"><a href="Gallery.html">Gallery</a></li>
+    <li class="breadcrumb-item"><a href="Setlist.html">Setlist</a></li>
+    <li class="breadcrumb-item"><a href="Songs.html">Songs</a></li>
+  </ol>
+  <div class="alert alert-primary" role="alert">
+  San Blas Blues- officially COVID free!
+  </div>
+        </nav>
+      <h1 class="main-title">SAN BLAS BLUES</h1>
+      <p class="para">San Blas Blues is Madrid's premier rythme and blues band. Since 2003 the band has been providing impecable rock'n'roll service to its discerning clients.</p>
     </body>
-</html> -->
+</html>
