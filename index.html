@@ -1,10 +1,28 @@
-<html lang="en">
-    <body>
-        <h2>
-            Set List
-        </h2>
-    </body>
-</html>
+{% extends "band/layout.html" %}
+{% load static %}
+
+{% block body %}
+    <h2>Band</h2>
+
+    <button class="btn btn-sm btn-outline-primary" id="inbox">Inbox</button>
+    <button class="btn btn-sm btn-outline-primary" id="compose">Compose</button>
+    <button class="btn btn-sm btn-outline-primary" id="sent">Sent</button>
+    <button class="btn btn-sm btn-outline-primary" id="archived">Archived</button>
+    <hr>
+
+    <div id="emails-view"></div>
+
+    <div id="emails-view-list"></div>
+
+    <div id="content-view"></div>
+
+    <div id="compose-view"></div>
+
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'band/band.js' %}"></script>
+{% endblock %}
 <!-- <!DOCTYPE html>
 <html lang="en">
     <body>
