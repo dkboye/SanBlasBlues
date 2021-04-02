@@ -29,7 +29,13 @@ textarea {
 }
 .table
 {
-    margin: 25px;
+  margin: 25px;
+}
+.h2
+{
+    margin-left:75px;
+    font-family: Helvetica Nueu, segoi UI, sans-serif;
+    font-size: 25px;
 }
 .h3
 {
@@ -41,12 +47,6 @@ textarea {
 {
     margin-left:25px;
     font-family: Helvetica Nueu, segoi UI, sans-serif;
-}
-.h2
-{
-    margin-left:75px;
-    font-family: Helvetica Nueu, segoi UI, sans-serif;
-    font-size: 25px;
 }
 
 #songlinks
