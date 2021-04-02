@@ -1,4 +1,4 @@
-### Get out my life woman
+GET OUT MY LIFE WOMAN
 
 Get out my life, woman; you don't love me no more
 Get out my life, woman; you don't love me no more
