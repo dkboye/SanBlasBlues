@@ -33,7 +33,7 @@ textarea {
 }
 .h3
 {
-    margin-left:100px;
+    margin-left:25px;
     font-family: Helvetica Nueu, segoi UI, sans-serif;
     font-size: 20px;
 }
@@ -51,5 +51,5 @@ textarea {
 
 #homepage
 {
-  background-image: url("IMG_E9244.jpg");
+  background-image: url("IMG_E9244.JPG");
 }
