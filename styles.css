@@ -61,3 +61,8 @@ textarea {
   background-repeat:   no-repeat;
   /* background-position: center center;   */
 }
+
+.lyrics_link
+{
+  color: black;
+}
