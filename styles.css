@@ -52,7 +52,7 @@ textarea {
 #homepage
 {
   background-image: url("IMG_E9244.JPG");
-  background-size:     contain;
+  background-size:     auto;
   background-repeat:   no-repeat;
   background-position: center center;
 }
