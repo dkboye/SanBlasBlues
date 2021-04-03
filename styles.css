@@ -49,7 +49,7 @@ textarea {
     font-family: Helvetica Nueu, segoi UI, sans-serif;
 }
 
-#songlinks #pdf
+#songlinks
 {
   margin-left:25px;
 }
@@ -65,4 +65,9 @@ textarea {
 .lyrics_link
 {
   color: green;
+}
+#pdf
+{
+  margin-left:25px;
+  color: brown;
 }
