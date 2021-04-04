@@ -1,56 +1,98 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-        <link href="styles.css" rel="stylesheet">
-        <title>SBB Gallery</title>
-        <style>
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>SBB Gallery</title>
+    <style>
+      div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+      }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-</style>
-    </head>
-    <body>
-        <nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Gallery</li>
-    <li class="breadcrumb-item"><a href="setlist.html">Setlist</a></li>
-     <li class="breadcrumb-item"><a href="songs.html">Songs</a></li>
-  </ol>
-  <div class="gallery">
-    <img src="photos\Guitars.JPG" alt="Guitars" width="800" height="600">
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+        <li class="breadcrumb-item"><a href="setlist.html">Setlist</a></li>
+          <li class="breadcrumb-item"><a href="songs.html">Songs</a></li>
+      </ol>
+    </nav>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <img
+          src="photos\JuanMa.JPG"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt=""
+          />
+          
+          <img
+          src="photos\ASAT.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt=""
+          />
+      </div>
+      
+      <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+          src="photos\Photo_SBB.PNG"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt=""
+          />
+          
+          <img
+          src="photos\IMG_20191204_205403.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt=""
+          />
+      </div>
+      
+      <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+          src="photos\Guitars.JPG"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt=""
+          />
+          
+          <img
+          src="photos\Bass_Guitar.JPG"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt=""
+          />
+      </div>
+      <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+          src="photos\SG2000.JPG"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt=""
+          />
+          
+          <img
+          src="photos\Rockstar.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt=""
+          />
+      </div>
   </div>
-  <div class="gallery">
-    <img src="photos\IMG_20191204_205403.jpg" alt="Popa" width="1200" height="800">
-  </div>
-  <div class="gallery">
-    <img src="photos\Photo_SBB.PNG" alt="Popa" width="1200" height="800">
-  </div>
-  <div class="gallery">
-    <img src="photos\Bass_Guitar.JPG" alt="Popa" width="1200" height="800">
-  </div>
-  <div class="gallery">
-    <img src="photos\JuanMa.JPG" alt="Popa" width="1200" height="800">
-  </div>
-    </body>
+  </body>
 </html>
