@@ -8,12 +8,17 @@
         <title>Songs</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <style>
+            /* Style to change separator  */
+            .breadcrumb-item + .breadcrumb-item::before {
+                content: "";
+            }
+            </style>  
     </head>
     <body>
     <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-fw fa-home" aria-hidden="true"></i> Home</a></li>
-        <!-- <li class="breadcrumb-item"><a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Gallery</a></li> -->
         <li class="breadcrumb-item"><a href="setlist.html"><i class="fa fa-list" aria-hidden="true"></i> Setlist</a></li>
         <li class="breadcrumb-item"><a href="live.html"><i class="fa fa-microphone" aria-hidden="true"></i> Live</a></li>
         <li class="breadcrumb-item"><a href="demo.html"><i class="fa fa-volume-up" aria-hidden="true"></i> Demo</a></li>
