@@ -12,12 +12,11 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <style>
-        /* Style to change separator  */
-        .breadcrumb-item + .breadcrumb-item::before {
-            content: "";
-        }
-        </style>   
+      <script>
+        $(document).ready(function(){
+          $('.toast').toast('show');
+        });
+        </script>
   </head>
   <body id="homepage" style="background-color: rgb(6, 17, 29);">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -47,42 +46,20 @@
         </div>
       </div>
     </nav>
-    <!-- <div class="fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <div class="breadcrumb-item"><a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Fotos</a></div>
-          <div class="breadcrumb-item"><a href="setlist.html"><i class="fa fa-list" aria-hidden="true"></i> Repertorio</a></div>
-          <div class="breadcrumb-item"><a href="songs.html"><i class="fa fa-music" aria-hidden="true"></i> Canciones</a></div>
-          <div class="breadcrumb-item"><a href="live.html"><i class="fa fa-microphone" aria-hidden="true"></i> En directo</a></div>
-          <div class="breadcrumb-item"><a href="demo.html"><i class="fa fa-volume-up" aria-hidden="true"></i> Demo</a></div>
-        </div>
+    <div class="toast align-items-center text-info bg-dark" autohide="false" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          Próximo ensayo viernes 28 de mayo 19:00
+       </div>
+        <!-- <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button> -->
       </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-text">
-            San Blas Blues
-          </span>
-        </button>
-      </nav>
-    </div> -->
-    <!-- <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Photos</a></li>
-        <li class="breadcrumb-item"><a href="setlist.html"><i class="fa fa-list" aria-hidden="true"></i> Setlist</a></li>
-        <li class="breadcrumb-item"><a href="songs.html"><i class="fa fa-music" aria-hidden="true"></i> Songs</a></li>
-        <li class="breadcrumb-item"><a href="live.html"><i class="fa fa-microphone" aria-hidden="true"></i> Live</a></li>
-        <li class="breadcrumb-item"><a href="demo.html"><i class="fa fa-volume-up" aria-hidden="true"></i> Demo</a></li>
-        <li class="breadcrumb-item active" aria-current="page"><i class="fa fa-fw fa-home" aria-hidden="true"></i></li>
-      </ol> -->
-      <!-- <h2 style="color:white;" class="main-title">SAN BLAS BLUES</h2> -->
-      <div style="text-align: center" class=" sm alert alert-secondary alert-dismissible fade show" role="alert">
+    </div>
+      <!-- <div style="text-align: center" class=" sm alert alert-secondary alert-dismissible fade show" role="alert">
         Próximo ensayo viernes 28 de mayo 19:00<br>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
+      </div> -->
     <!-- </nav> -->
     <img
           src="photos\band.jpg"
