@@ -4,32 +4,51 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <link href="styles.css" rel="stylesheet">
-    <title>Setlist</title>
+    <title>SBB Repertorio</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-    /* Style to change separator  */
-    .breadcrumb-item + .breadcrumb-item::before {
-        content: "";
-    }
-    th, td {
-      padding: 10px;
-    }
-    </style>
-  </head>
+      /* Style to change separator  */
+      .breadcrumb-item + .breadcrumb-item::before {
+          content: "";
+      }
+      </style>   
+</head>
 <body>
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-fw fa-home" aria-hidden="true"></i> Home</a></li>
-      <li class="breadcrumb-item"><a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Photos</a></li>
-      <li class="breadcrumb-item"><a href="songs.html"><i class="fa fa-music" aria-hidden="true"></i> Songs</a></li>
-      <li class="breadcrumb-item"><a href="live.html"><i class="fa fa-microphone" aria-hidden="true"></i> Live</a></li>
-      <li class="breadcrumb-item"><a href="demo.html"><i class="fa fa-volume-up" aria-hidden="true"></i> Demo</a></li>
-      <li class="breadcrumb-item active" aria-current="page"><i class="fa fa-list" aria-hidden="true"></i></li>
-    </ol>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Repertorio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="gallery.html">Fotos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="songs.html">Canciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="live.html">En directo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="demo.html">Demo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
-  <a id="pdf" href="set_may_21.pdf">PDF</a>
+  <br>
+  <a id="pdf" href="photos\set_19-06-21.pdf">PDF</a>
   <table class="table"style="width:75%">
     <tr>
       <th>Setlist mayo-2021</th>
@@ -37,7 +56,7 @@
     </tr>
     <tr>
       <td>Shine on you crazy diamond</td>
-      <td>Gm?</td>
+      <td>Gm</td>
     </tr>
     <tr>
       <td>Don't worry baby</td>
@@ -177,5 +196,5 @@
     </tr> -->
   </table>
 
-    </body>
+</body>
 </html>
