@@ -2,16 +2,18 @@
 
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
     <link href="styles.css" rel="stylesheet">
     <title>San Blas Blues</title>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <script>
       $(document).ready(function(){
         $('.toast').toast('show');
@@ -59,6 +61,24 @@
           class="w-100 shadow-1-strong  "
           alt=""
           />
+    <!-- Modal -->
+    <div class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <footer id="styled-footer" style="background-image: url('photos/vox_black_diamond.jpg'); background-size: 20%;">
       <div class="row rw align-center">
@@ -105,5 +125,46 @@
         </div>
       </div>
     </footer>
+    
+    <!-- <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NLQ2ZH4"></script>
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()
+      { (i[r].q=i[r].q||[]).push(arguments)}
+      ,i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-4063999-2', 'auto');
+      ga('send', 'pageview');
+      </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NLQ2ZH4');</script>
+    <script type="application/javascript">var FMIC = {"environment":"production","domain":"www.gretschguitars.com","site":"gretsch","brand":"gretsch","page":"home","locale":"en","country":"ES","country_detection":true,"globalization":false,"popup_modal_delay":"3","popup_modal_expiration":"14"};</script>
+    <script type="application/javascript" src="//www.fmicassets.com/platform/core/jquery/jquery-3.5.1.min.js"></script>
+    <script type="application/javascript" src="//www.fmicassets.com/platform/core/jquery/cookie/jquery.cookie.js"></script>
+    <script type="application/javascript" src="//www.fmicassets.com/platform/core/jquery/scrollto/jquery.scrollTo.min.js"></script>
+    <script type="application/javascript" src="//www.fmicassets.com/platform/sites/live/gretsch/app.97d19077-4c0b-4918-99ac-5a4b5dbc9dce.min.js?time=1632221301"></script>
+    <script type="application/javascript" src="//www.fmicassets.com/platform/plugins/revolutionslider/v5.4.5/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="application/javascript" src="//www.fmicassets.com/platform/plugins/revolutionslider/v5.4.5/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="application/javascript" src="//www.fmicassets.com/platform/sites/live/gretsch/pages/en/6vuqnIBCda0Y8MYMCykkWo.97d19077-4c0b-4918-99ac-5a4b5dbc9dce.min.js?time=1632221301"></script>
+    <script>var urchinTracker=function(){},_gaq={push:function(){try {if(arguments[0][0]==='_link'){window.location.href=arguments[0][1];}}catch(er){}}},_gat={_createTracker:function(){}, _getTracker:function(){return{__noSuchMethod__:function(){},_link:function(o){if(o){location.href=o;}},_linkByPost:function(){return true;},_getLinkerUrl:function(o){return o;},_trackEvent:function(){}};}};var _gat={_getTrackerByName: function(){return {_trackEvent: function(){}}}};</script>
+    <script>var myModal = document.getElementById('myModal')
+      var myInput = document.getElementById('myInput')
+      
+      myModal.addEventListener('shown.bs.modal', function () {
+        myInput.focus()
+      })
+      </script> -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLQ2ZH4"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      
+      
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
   </body>
 </html>

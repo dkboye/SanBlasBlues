@@ -72,6 +72,11 @@ textarea {
   margin-left:40px;
   color: brown;
 }
+#guitar_icon
+{
+  margin-right:10px;
+  float: right;
+}
 
 #support-nav h5 {
   margin-bottom:13px;
@@ -6395,8 +6400,8 @@ body #popup-cookie-modal.reveal {
 }
 @media screen and (max-width: 39.9375em) {
  body #popup-cookie-modal.reveal {
-  height:60vh;
-  min-height:60vh
+  height:30vh;
+  min-height:30vh
  }
 }
 body #four-zero-four {
