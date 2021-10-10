@@ -18,209 +18,268 @@
           content: "";
       }
       </style>   
-</head>
-<body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="background-image: url('photos/weave.JPG')">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Repertorio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="gallery.html">Fotos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="songs.html">Canciones</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="live.html">En directo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="demo.html">Demo</a>
-          </li>
-        </ul>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="background-image: url('photos/weave.JPG')">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Repertorio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="gallery.html">Fotos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="songs.html">Canciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="live.html">En directo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="demo.html">Demo</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <br>
-  <a id="pdf" href="lyrics/set_oct_21.pdf"><img src="lyrics/PDF_icon.png"></a>
-  
+    </nav>
+    <br>
+    <a id="pdf" href="lyrics/set_oct_21.pdf"><img src="lyrics/PDF_icon.png"></a>
+    
 
-  <table class="table"style="width:75%">
-    <tr>
-      <th>Repertorio</th>
-      <th></th>
-    </tr>
-    <!-- <tr>
-      <td>I Don't Need No Doctor</td>
-      <td>E</td>
-    </tr> -->
-    <tr>
-      <td>Them Changes</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>Good Golly Miss Molly</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>Woo Hoo</td>
-      <td>A</td>
-    </tr>
-    <!-- <tr>
-      <td>Leaving Here</td>
-      <td>D</td>
-    </tr> -->
-    <tr>
-      <td>Suspicious Minds</td>
+    <table id="set_table" class="table"style="width:75%">
+      <tr>
+        <th onclick="sortTable(0)" style="cursor: pointer; text-align: center;">Repertorio</th>
+        <th></th>
+      </tr>
+      <!-- <tr>
+        <td>I Don't Need No Doctor</td>
+        <td>E</td>
+      </tr> -->
+      <tr>
+        <td>Them Changes</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>Good Golly Miss Molly</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>Woo Hoo</td>
+        <td>A</td>
+      </tr>
+      <!-- <tr>
+        <td>Leaving Here</td>
+        <td>D</td>
+      </tr> -->
+      <tr>
+        <td>Suspicious Minds</td>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>Shine on you crazy diamond</td>
+        <td>Gm</td>
+      </tr>
+      <tr>
+        <td>Don't worry baby</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Woke up this morning</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Get out my life woman</td>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>Gerdundula</td>
+        <td>Gm</td>
+      </tr>
+      <tr>
+        <td>Brown Sugar</td>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>Shake Rattle and Roll</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Taxman</td>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>Fortunate Son</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>After Dark</td>
+        <td>Bm</td>
+      </tr>
+      <tr>
+      <td>Good Rockin' Daddy</td>
       <td>C</td>
-    </tr>
-    <tr>
-      <td>Shine on you crazy diamond</td>
-      <td>Gm</td>
-    </tr>
-    <tr>
-      <td>Don't worry baby</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>Woke up this morning</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>Get out my life woman</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Gerdundula</td>
-      <td>Gm</td>
-    </tr>
-    <tr>
-      <td>Brown Sugar</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Shake Rattle and Roll</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>Taxman</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>Fortunate Son</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>After Dark</td>
-      <td>Bm</td>
-    </tr>
-    <tr>
-    <td>Good Rockin' Daddy</td>
-    <td>C</td>
-    </tr>
-    <tr>
-      <td>All day and all of the night</td>
-      <td>G</td>
-    </tr>
-    <tr>
-      <td>I Just Wanna Make Love to You</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>Low Rider</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>When this war is over</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>Every day I have the blues</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>Somebody's always trying</td>
-      <td>Em</td>
-    </tr>
-    <tr>
-      <td>Start it up</td>
-      <td>G</td>
-    </tr>
-    <tr>
-      <td>Decididamente Extraño</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>Three hours past midnight</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>El payo</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>Feelin' alright</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>That train don't stop here anymore</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <td>Twenty flight rock</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>Directly from my heart to you</td>
-      <td>E</td>
-    </tr>
-    <tr>
-      <td>Blues Local</td>
-      <td>G</td>
-    </tr>
-    <tr>
-      <td>Route 66</td>
-      <td>A</td>
-    </tr>
-    <!-- <tr>
-      <td>San Blas Blues</td>
-      <td>E</td>
-    </tr> -->
-    <tr>
-      <td>Escalera mecánica</td>
-      <td>G</td>
-    </tr>
-    <tr>
-      <td>It's your voodoo working</td>
-      <td>Dm</td>
-    </tr>
-    <!-- <tr>
-      <td>La dulce María</td>
-      <td>E</td>
-    </tr> -->
-    <tr>
-      <td>Shake</td>
-      <td>G</td>
-    </tr>
-    <!-- <tr>
-      <td>May I have a talk with you</td>
-      <td>G</td>
-    </tr> -->
-    <!-- <tr>
-      <td>La abuela</td>
-      <td>E</td>
-    </tr> -->
-    <!-- <tr>
-      <td>The hunter</td>
-      <td>G</td>
-    </tr> -->
-  </table>
-  <a id="guitar_icon" href="New Products.html" style="float:left; padding:0px 0px 15px 15px;"><img src="New Products_files/2401396823_gre_ins_frt_01_rr.png" alt="guitar icon" width="10" ></a>
-</body>
+      </tr>
+      <tr>
+        <td>All day and all of the night</td>
+        <td>G</td>
+      </tr>
+      <tr>
+        <td>I Just Wanna Make Love to You</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Low Rider</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>When this war is over</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>Every day I have the blues</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Somebody's always trying</td>
+        <td>Em</td>
+      </tr>
+      <tr>
+        <td>Start it up</td>
+        <td>G</td>
+      </tr>
+      <tr>
+        <td>Decididamente Extraño</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>Three hours past midnight</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>El payo</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>Feelin' alright</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>That train don't stop here anymore</td>
+        <td>F</td>
+      </tr>
+      <tr>
+        <td>Twenty flight rock</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>Directly from my heart to you</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>Blues Local</td>
+        <td>G</td>
+      </tr>
+      <tr>
+        <td>Route 66</td>
+        <td>A</td>
+      </tr>
+      <!-- <tr>
+        <td>San Blas Blues</td>
+        <td>E</td>
+      </tr> -->
+      <tr>
+        <td>Escalera mecánica</td>
+        <td>G</td>
+      </tr>
+      <tr>
+        <td>It's your voodoo working</td>
+        <td>Dm</td>
+      </tr>
+      <!-- <tr>
+        <td>La dulce María</td>
+        <td>E</td>
+      </tr> -->
+      <tr>
+        <td>Shake</td>
+        <td>G</td>
+      </tr>
+      <!-- <tr>
+        <td>May I have a talk with you</td>
+        <td>G</td>
+      </tr> -->
+      <!-- <tr>
+        <td>La abuela</td>
+        <td>E</td>
+      </tr> -->
+      <!-- <tr>
+        <td>The hunter</td>
+        <td>G</td>
+      </tr> -->
+    </table>
+    <a id="guitar_icon" href="New Products.html" style="float:left; padding:0px 0px 15px 15px;"><img src="New Products_files/2401396823_gre_ins_frt_01_rr.png" alt="guitar icon" width="10" ></a>
+    <a id="guitar_icon" href="practice.html" style="float:left; padding:0px 0px 15px 15px;"><img src="New Products_files/2401417859_gre_ins_frt_01_rr.png" alt="guitar icon" width="10" ></a>
+    <script>
+      function sortTable(n) {
+        var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+        table = document.getElementById("set_table");
+        switching = true;
+        // Set the sorting direction to ascending:
+        dir = "asc";
+        /* Make a loop that will continue until
+        no switching has been done: */
+        while (switching) {
+          // Start by saying: no switching is done:
+          switching = false;
+          rows = table.rows;
+          /* Loop through all table rows (except the
+          first, which contains table headers): */
+          for (i = 1; i < (rows.length - 1); i++) {
+            // Start by saying there should be no switching:
+            shouldSwitch = false;
+            /* Get the two elements you want to compare,
+            one from current row and one from the next: */
+            x = rows[i].getElementsByTagName("TD")[n];
+            y = rows[i + 1].getElementsByTagName("TD")[n];
+            /* Check if the two rows should switch place,
+            based on the direction, asc or desc: */
+            if (dir == "asc") {
+              if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                // If so, mark as a switch and break the loop:
+                shouldSwitch = true;
+                break;
+              }
+            } else if (dir == "desc") {
+              if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                // If so, mark as a switch and break the loop:
+                shouldSwitch = true;
+                break;
+              }
+            }
+          }
+          if (shouldSwitch) {
+            /* If a switch has been marked, make the switch
+            and mark that a switch has been done: */
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+            // Each time a switch is done, increase this count by 1:
+            switchcount ++;
+          } else {
+            /* If no switching has been done AND the direction is "asc",
+            set the direction to "desc" and run the while loop again. */
+            if (switchcount == 0 && dir == "asc") {
+              dir = "desc";
+              switching = true;
+            }
+          }
+        }
+      }
+    </script>
+  </body>
 </html>
+
+
