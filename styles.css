@@ -9931,3 +9931,10 @@ li.sidebar::before {
   color: #22bb5b;
   font-size: large;
 }
+
+#video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width:70%; */
+}
