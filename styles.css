@@ -9940,3 +9940,13 @@ li.sidebar::before {
   /* transform-origin: bottom left; */
   width:50%;
 }
+
+/* textarea {
+  rows: 1;
+  cols: 50;
+} */
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}

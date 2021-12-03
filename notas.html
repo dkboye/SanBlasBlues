@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
@@ -14,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="{% static 'sbb.js' %}"></script>
+    <script src="static/sbb.js"></script>
     <style>
       /* Style to change separator  */
       .breadcrumb-item + .breadcrumb-item::before {
@@ -56,7 +55,7 @@
         </div>
       </div>
     </nav>
-    <table class="table table-striped table-sm">
+    <table class="table table-striped table-sm center" style ="width: 80vw;">
       <!-- <thead class="thead-dark">
         <tr>
           <th style="text-align:left">Notas</th>
@@ -64,13 +63,14 @@
       </thead> -->
       <tbody>
         <tr>
-          <td style="text-align:left"><a style="text-decoration:none" id="comments" href="#" onclick="toggleEdit()" return false>Añadir notas</a></td>
-          <textarea rows = "1" cols = "90" style ="display:none" class = "text" id="text" type="input" ondblclick="edit_comments()"></textarea>
-          <script>
-              window.onload = updatecomment()
-          </script>
+          <td><a style="text-decoration:none" id="comments" href="#" onclick="toggleEdit()" return false>Añadir notas</a></td>
+          <textarea rows = "4" cols = "10" style ="display:none; width: 80vw;" class = "text center" id="text" type="input" ondblclick="edit_comments()">Añadir texto y "doble click"></doble></textarea>
         </tr>
       </tbody>
     </table>
   </body>
   </html>
+  <script>
+      window.onload = updatecomment()
+  </script>
+  
