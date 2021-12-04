@@ -9950,3 +9950,9 @@ li.sidebar::before {
   margin-left: auto;
   margin-right: auto;
 }
+
+#comments {
+  color: wheat;
+  /* margin-left: 15px; */
+  white-space: pre;
+}
