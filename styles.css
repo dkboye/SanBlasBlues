@@ -9956,3 +9956,21 @@ li.sidebar::before {
   /* margin-left: 15px; */
   white-space: pre;
 }
+
+#to-top {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px 5px 0px;
+  /* background-color: var(--orange); */
+  background-color:darkcyan;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
