@@ -9964,8 +9964,8 @@ li.sidebar::before {
   margin-left: -5px;
   padding: 5px 5px 0px;
   /* background-color: var(--orange); */
-  background-color:lightcoral;
-  color: white;
+  background-color:lightGreen;
+  color: black;
   font-size: 20px;
   font-weight: normal;
   text-decoration: none;
