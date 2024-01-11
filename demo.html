@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <title>SBB Demo</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-      /* Style to change separator  */
-      .breadcrumb-item + .breadcrumb-item::before {
-          content: "";
-      }
-      </style>   
-  </head>
-    <body style="background-image: url('photos/weave.JPG')">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="background-image: url('photos/weave.JPG')">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Demo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="setlist.html">Repertorio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="gallery.html">Fotos</a>
-            </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="songs.html">Canciones</a>
-              </li>
-              <!-- <li class="nav-item">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <link href="styles.css" rel="stylesheet">
+  <title>SBB Demo</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Style to change separator  */
+    .breadcrumb-item+.breadcrumb-item::before {
+      content: "";
+    }
+  </style>
+</head>
+
+<body style="background-image: url('photos/weave.JPG')">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="background-image: url('photos/weave.JPG')">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Demo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="setlist.html">Repertorio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="gallery.html">Fotos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="songs.html">Canciones</a>
+          </li>
+          <!-- <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="new_songs.html">Canciones Nuevas</a>
               </li> -->
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="live.html">En directo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="conciertos.html">Conciertos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="notas.html">Notas</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-        <!-- <nav aria-label="breadcrumb">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="live.html">En directo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="conciertos.html">Conciertos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="notas.html">Notas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-fw fa-home" aria-hidden="true"></i> Home</a></li>
                 <li class="breadcrumb-item"><a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Photos</a></li>
@@ -66,22 +76,23 @@
                 <li class="breadcrumb-item active" aria-current="page"><i class="fa fa-volume-up" aria-hidden="true"></i></li>
             </ol>
         </nav> -->
-      <div id="songlinks" style="font-family:Helvetica,Arial,sans-serif; padding-top:20px; text-align: center;">
-      <a href="demo\3hrs.mpeg" target="_blank">Three Hours Past Midnight</a><br>
-      <a href="demo\20flight.wav" target="_blank">Twenty Flight Rock</a><br>
-      <a href="demo\blocal.wav" target="_blank">Blues Local</a><br>
-      <a href="demo\cafe.wav" target="_blank">Café</a><br>
-      <a href="demo\decidadamente.wav" target="_blank">Decidadamente Extraño</a><br>
-      <a href="demo\directly.wav" target="_blank">Directly From My Heart to You</a><br>
-      <a href="demo\dulce.wav" target="_blank">La dulce Maria</a><br>
-      <a href="demo\escalera.wav" target="_blank">Escalera Mecanica</a><br>
-      <a href="demo\payo.wav" target="_blank">El Payo</a><br>
-      <a href="demo\r66.wav" target="_blank">Route 66</a><br>
-      <a href="demo\sbb.wav" target="_blank">San Blas Blues</a><br>
-      <a href="demo\somebody.wav" target="_blank">Somebody's Always Trying</a><br>
-      <a href="demo\start.wav" target="_blank">Start It Up</a><br>
-      <a href="demo\train.wav" target="_blank">That Train Don't Stop Here Anymore</a><br>
-      <a href="demo\war.wav" target="_blank">When This War is Over</a>
-      </div>
-  </body>
+  <div id="songlinks" style="font-family:Helvetica,Arial,sans-serif; padding-top:20px; text-align: center;">
+    <a href="demo\3hrs.mpeg" target="_blank">Three Hours Past Midnight</a><br>
+    <a href="demo\20flight.wav" target="_blank">Twenty Flight Rock</a><br>
+    <a href="demo\blocal.wav" target="_blank">Blues Local</a><br>
+    <a href="demo\cafe.wav" target="_blank">Café</a><br>
+    <a href="demo\decidadamente.wav" target="_blank">Decidadamente Extraño</a><br>
+    <a href="demo\directly.wav" target="_blank">Directly From My Heart to You</a><br>
+    <a href="demo\dulce.wav" target="_blank">La dulce Maria</a><br>
+    <a href="demo\escalera.wav" target="_blank">Escalera Mecanica</a><br>
+    <a href="demo\payo.wav" target="_blank">El Payo</a><br>
+    <a href="demo\r66.wav" target="_blank">Route 66</a><br>
+    <a href="demo\sbb.wav" target="_blank">San Blas Blues</a><br>
+    <a href="demo\somebody.wav" target="_blank">Somebody's Always Trying</a><br>
+    <a href="demo\start.wav" target="_blank">Start It Up</a><br>
+    <a href="demo\train.wav" target="_blank">That Train Don't Stop Here Anymore</a><br>
+    <a href="demo\war.wav" target="_blank">When This War is Over</a>
+  </div>
+</body>
+
 </html>

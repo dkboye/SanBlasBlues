@@ -1,114 +1,138 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <title>SBB Canciones</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-      /* Style to change separator  */
-      .breadcrumb-item + .breadcrumb-item::before {
-          content: "";
-      }
-      </style>   
-  </head>
-    <body style="background-color:#eee8c6; color:black">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="background-image: url('photos/weave.JPG')">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Canciones</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="setlist.html">Repertorio</a>
-                  </li>
-                  <!-- <li class="nav-item">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <link href="styles.css" rel="stylesheet">
+  <title>SBB Canciones</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Style to change separator  */
+    .breadcrumb-item+.breadcrumb-item::before {
+      content: "";
+    }
+  </style>
+</head>
+
+<body style="background-color:#eee8c6; color:black">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="background-image: url('photos/weave.JPG')">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Canciones</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="setlist.html">Repertorio</a>
+          </li>
+          <!-- <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="new_songs.html">Canciones Nuevas</a>
                   </li> -->
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="gallery.html">Fotos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="live.html">En directo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="demo.html">Demo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="conciertos.html">Conciertos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="notas.html">Notas</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <div style="margin-left: 30px; background-image: url('New Products_files/2401157831_gre_ins_frt_01_rr.png'); background-size: 65%;background-repeat: no-repeat;background-position: center;"><br>
-            <h4>Song links</h4>
-            Freddie King       <a href="https://youtu.be/KsY7etEHtvM" target="_blank">The Stumble</a><br/>
-            Jefferson Airplane <a href="https://youtu.be/pnJM_jC7j_4" target="_blank">White rabbit</a> | <a class= "lyrics_link" href="lyrics/white_rabbit.pdf" target="_blank">Lyrics</a><br/>
-            Koko Taylor        <a href="https://youtu.be/w_fygyQiHoA" target="_blank">I'm a Woman</a> | <a class= "lyrics_link" href="lyrics/im_a_woman.pdf" target="_blank">Lyrics</a><br/>
-            Koko Taylor        <a href="https://youtu.be/SIj-onbFtX4" target="_blank">Voodoo Woman</a> | <a class= "lyrics_link" href="lyrics/voodoo_woman.pdf" target="_blank">Lyrics</a><br/>
-            Etta James         <a href="https://youtu.be/NanxlfPEAxs" target="_blank">Good Rockin' Daddy</a> | <a class= "lyrics_link" href="lyrics/good_rockin_daddy.pdf" target="_blank">Lyrics</a><br/>
-            Tito and Tarantula <a href="https://www.youtube.com/watch?v=hlOhlY7EoEU" target="_blank">After Dark</a> | <a class= "lyrics_link" href="lyrics/after_dark.pdf" target="_blank">Lyrics</a><br/>
-            Los Lobos          <a href="https://youtu.be/u1cpKjx4Mnk" target="_blank">One way out</a> | <a class= "lyrics_link" href="lyrics/one_way_out.pdf" target="_blank">Lyrics</a><br/>
-            Chicago            <a href="https://youtu.be/j8vY3vAbAdQ" target="_blank">I'm a man</a> | <a class= "lyrics_link" href="lyrics/im_a_man.pdf" target="_blank">Structure</a><br/>
-            Buddy Miles        <a href="https://youtu.be/w05CYrXe4p4" target="_blank">Them changes</a><br/>
-            Foo Fighters       <a href="https://www.youtube.com/watch?v=6yu1oqauaMI" target="_blank">Fortunate Son</a><br/>
-            Elvin Bishop       <a href="https://youtu.be/DyMMEmwFQUE" target="_blank">Fooled around...</a><br>
-            Sonics             <a href="https://youtu.be/20S_kwNb4rg" target="_blank">Have love will travel</a><br>
-            Johnny Oskam       <a href="https://youtu.be/juEt9UZqcv0" target="_blank">Badlands</a><br>
-            Allman Brothers    <a href="https://youtu.be/uR-qep0l7T8" target="_blank">Don't keep me wonderin'</a><br>
-            Bowie              <a href="https://youtu.be/lXgkuM2NhYI" target="_blank">Heroes</a><br>
-            Gary Clarke Jr     <a href="https://www.youtube.com/watch?v=Rja-GGxEi4M" target="_blank">Shake</a><br/>
-            Creedence          <a href="https://youtu.be/AlP-PXnwM3w" target="_blank">Good Golly Miss Molly</a><br>
-            Rolling Stones     <a href="https://www.youtube.com/watch?v=vW3erXpORlg" target="_blank">Twenty Flight Rock</a><br/>
-            Robben Ford        <a href="https://www.youtube.com/watch?v=mDTfxVnM5Tg" target="_blank">Start it up</a><br/>
-            Little Richard     <a href="https://www.youtube.com/watch?v=gLCFrPZKp9A" target="_blank">Directly from my heart to you</a><br/>
-            Ted Taylor         <a href="https://www.youtube.com/watch?v=8z9A4DbWlA0" target="_blank">Somebody's always trying</a><br/>
-            Derek Trucks       <a href="https://www.youtube.com/watch?v=1YWSLZsfeQU" target="_blank">Get out my life woman</a> | <a class= "lyrics_link" href="lyrics\Get_out_my_life.md" target="_blank">Lyrics</a><br/>
-            Status Quo         <a href="https://www.youtube.com/watch?v=m9Tg3IzM0wg" target="_blank">Gerdundula</a> | <a class= "lyrics_link" href="lyrics\Gerdundula.md" target="_blank">Lyrics</a><br/>
-            Stevie Ray Vaughan <a href="https://www.youtube.com/watch?v=dNDYArDUgSg" target="_blank">Taxman</a><br/>
-            Foghat             <a href="https://www.youtube.com/watch?v=ziiDkT165zI" target="_blank">I just wanna make love to you</a><br/>
-            Rolling Stones     <a href="https://www.youtube.com/watch?v=Fmfi3UbDPnQ" target="_blank">Brown Sugar</a><br/>
-            War                <a href="https://www.youtube.com/watch?v=7asO_d_mP7o" target="_blank">Low Rider</a><br/>
-            Los Lobos          <a href="https://www.youtube.com/watch?v=ZFMuuPN7Jdo" target="_blank">That train don't stop here anymore</a><br/>
-            Mississippi Fred McDowell <a href="https://youtu.be/mtlVSedpIRU" target="_blank">You gotta move</a><br>
-            Grand Funk Railroad <a href="https://youtu.be/HOcrRt8p2J4" target="_blank">Feeling Alright</a><br>
-            Johnny Guitar Watson       <a href="https://youtu.be/jF6cZTlWfow" target="_blank">Three hours past</a><br/>
-        <!-- Charles Sheffield  <a href="https://www.youtube.com/watch?v=93qkOhvBCYQ" target="_blank">It's your voodoo working</a><br/> -->
-        <!-- Canned Heat        <a href="https://www.youtube.com/watch?v=kenwhJoWzVk" target="_blank">Shake Rattle and Roll</a><br/> -->
-        <!-- Black Crowes       <a href="https://www.youtube.com/watch?v=FS28tWgN9po" target="_blank">Woke up this morning</a> | <a class= "lyrics_link" href="lyrics\Woke_up.pdf" target="_blank">Lyrics</a><br/> -->
-        <!-- Red Devils <a href="https://youtu.be/bftj8lOjp4s" target="_blank">I've been wrong</a><br> -->
-        <!-- Fleetwood Mac <a href="https://youtu.be/8bJKqjlQBQE" target="_blank">Leaving town blues</a><br> -->
-        <!-- Josh Smith <a href="https://youtu.be/VlRFkLqeuJE" target="_blank">Brown Gatton</a><br> -->
-        <!-- The 5,6,7,8s        <a href="https://youtu.be/7DJv0rx5g-c" target="_blank">Woo Hoo</a><br> -->
-        <!-- Bluesbreakers <a href="https://youtu.be/PkulcvRkd4I" target="_blank">Steppin' out</a><br> -->
-        <!-- Muddy Waters        <a href="https://youtu.be/vD0gk4pcUvY" target="_blank">I'm a King Bee</a><br> -->
-        <!-- Shine on you Crazy Diamond <a href="https://youtu.be/bzhXl_OpWb4" target="_blank">Como tocar</a><br> -->
-        <!-- Stranglers         <a href="https://www.youtube.com/watch?v=y6k3tNNRS_I" target="_blank">All of the day and all of the night</a><br/> -->
-        <!-- Buddy Miles         <a href="https://youtu.be/w05CYrXe4p4" target="_blank">Them Changes</a> | <a class= "lyrics_link" href="lyrics\them_changes.pdf" target="_blank">Lyrics</a><br/> -->
-        <!-- Govt Mule          <a href="https://youtu.be/NTeKnM7AYOw" target="_blank">I Don't Need no Doctor</a> | <a class= "lyrics_link" href="lyrics/I_dont_need_no_Doctor.pdf" target="_blank">Lyrics</a><br/> -->
-        <!-- Pearl Jam          <a href="https://youtu.be/CWeYpF9tHRY" target="_blank">Leaving Here</a> | <a class= "lyrics_link" href="lyrics/leavin_here.pdf" target="_blank">Lyrics</a><br/> -->
-        <!-- el Vis             <a href="https://www.youtube.com/watch?v=9v6amx7HjbE" target="_blank">Suspicious Minds</a> | <a class= "lyrics_link" href="lyrics/susminds_chords.pdf" target="_blank">Acordes</a><br/> -->
-        <!-- Los Lobos          <a href="https://www.youtube.com/watch?v=RTKaQOx029s" target="_blank">Don't Worry Baby</a> | <a class= "lyrics_link" href="lyrics\Dont_worry_baby_structure.pdf" target="_blank">Estructura</a><br/> -->
-        <!-- Dee Dee Warwick     <a href="https://youtu.be/_xUisVuPt8M" target="_blank">You're no good</a><br> -->
-        <!-- Canned Heat        <a href="https://www.youtube.com/watch?v=YBDQq66lTEs" target="_blank">The Hunter</a><br/> -->
-        <!-- John Lee Hooker    <a href="https://www.youtube.com/watch?v=tnPnrtKn9fY" target="_blank">Shake it baby</a><br/>
-        John Lee Hooker    <a href="https://www.youtube.com/watch?v=jRMzVMe18cA" target="_blank">Blues boogie jam</a><br/> -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="gallery.html">Fotos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="live.html">En directo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="demo.html">Demo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="conciertos.html">Conciertos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="notas.html">Notas</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </body>
+  </nav>
+  <div
+    style="margin-left: 30px; background-image: url('New Products_files/2401157831_gre_ins_frt_01_rr.png'); background-size: 65%;background-repeat: no-repeat;background-position: center;">
+    <br>
+    <h4>Song links</h4>
+    Freddie King <a href="https://youtu.be/KsY7etEHtvM" target="_blank">The Stumble</a><br />
+    Jefferson Airplane <a href="https://youtu.be/pnJM_jC7j_4" target="_blank">White rabbit</a> | <a class="lyrics_link"
+      href="lyrics/white_rabbit.pdf" target="_blank">Lyrics</a><br />
+    Koko Taylor <a href="https://youtu.be/w_fygyQiHoA" target="_blank">I'm a Woman</a> | <a class="lyrics_link"
+      href="lyrics/im_a_woman.pdf" target="_blank">Lyrics</a><br />
+    Koko Taylor <a href="https://youtu.be/SIj-onbFtX4" target="_blank">Voodoo Woman</a> | <a class="lyrics_link"
+      href="lyrics/voodoo_woman.pdf" target="_blank">Lyrics</a><br />
+    Etta James <a href="https://youtu.be/NanxlfPEAxs" target="_blank">Good Rockin' Daddy</a> | <a class="lyrics_link"
+      href="lyrics/good_rockin_daddy.pdf" target="_blank">Lyrics</a><br />
+    Tito and Tarantula <a href="https://www.youtube.com/watch?v=hlOhlY7EoEU" target="_blank">After Dark</a> | <a
+      class="lyrics_link" href="lyrics/after_dark.pdf" target="_blank">Lyrics</a><br />
+    Los Lobos <a href="https://youtu.be/u1cpKjx4Mnk" target="_blank">One way out</a> | <a class="lyrics_link"
+      href="lyrics/one_way_out.pdf" target="_blank">Lyrics</a><br />
+    Chicago <a href="https://youtu.be/j8vY3vAbAdQ" target="_blank">I'm a man</a> | <a class="lyrics_link"
+      href="lyrics/im_a_man.pdf" target="_blank">Structure</a><br />
+    Buddy Miles <a href="https://youtu.be/w05CYrXe4p4" target="_blank">Them changes</a><br />
+    Foo Fighters <a href="https://www.youtube.com/watch?v=6yu1oqauaMI" target="_blank">Fortunate Son</a><br />
+    Elvin Bishop <a href="https://youtu.be/DyMMEmwFQUE" target="_blank">Fooled around...</a><br>
+    Sonics <a href="https://youtu.be/20S_kwNb4rg" target="_blank">Have love will travel</a><br>
+    Johnny Oskam <a href="https://youtu.be/juEt9UZqcv0" target="_blank">Badlands</a><br>
+    Allman Brothers <a href="https://youtu.be/uR-qep0l7T8" target="_blank">Don't keep me wonderin'</a><br>
+    Bowie <a href="https://youtu.be/lXgkuM2NhYI" target="_blank">Heroes</a><br>
+    Gary Clarke Jr <a href="https://www.youtube.com/watch?v=Rja-GGxEi4M" target="_blank">Shake</a><br />
+    Creedence <a href="https://youtu.be/AlP-PXnwM3w" target="_blank">Good Golly Miss Molly</a><br>
+    Rolling Stones <a href="https://www.youtube.com/watch?v=vW3erXpORlg" target="_blank">Twenty Flight Rock</a><br />
+    Robben Ford <a href="https://www.youtube.com/watch?v=mDTfxVnM5Tg" target="_blank">Start it up</a><br />
+    Little Richard <a href="https://www.youtube.com/watch?v=gLCFrPZKp9A" target="_blank">Directly from my heart to
+      you</a><br />
+    Ted Taylor <a href="https://www.youtube.com/watch?v=8z9A4DbWlA0" target="_blank">Somebody's always trying</a><br />
+    Derek Trucks <a href="https://www.youtube.com/watch?v=1YWSLZsfeQU" target="_blank">Get out my life woman</a> | <a
+      class="lyrics_link" href="lyrics\Get_out_my_life.md" target="_blank">Lyrics</a><br />
+    Status Quo <a href="https://www.youtube.com/watch?v=m9Tg3IzM0wg" target="_blank">Gerdundula</a> | <a
+      class="lyrics_link" href="lyrics\Gerdundula.md" target="_blank">Lyrics</a><br />
+    Stevie Ray Vaughan <a href="https://www.youtube.com/watch?v=dNDYArDUgSg" target="_blank">Taxman</a><br />
+    Foghat <a href="https://www.youtube.com/watch?v=ziiDkT165zI" target="_blank">I just wanna make love to you</a><br />
+    Rolling Stones <a href="https://www.youtube.com/watch?v=Fmfi3UbDPnQ" target="_blank">Brown Sugar</a><br />
+    War <a href="https://www.youtube.com/watch?v=7asO_d_mP7o" target="_blank">Low Rider</a><br />
+    Los Lobos <a href="https://www.youtube.com/watch?v=ZFMuuPN7Jdo" target="_blank">That train don't stop here
+      anymore</a><br />
+    Mississippi Fred McDowell <a href="https://youtu.be/mtlVSedpIRU" target="_blank">You gotta move</a><br>
+    Grand Funk Railroad <a href="https://youtu.be/HOcrRt8p2J4" target="_blank">Feeling Alright</a><br>
+    Johnny Guitar Watson <a href="https://youtu.be/jF6cZTlWfow" target="_blank">Three hours past</a><br />
+    <!-- Charles Sheffield  <a href="https://www.youtube.com/watch?v=93qkOhvBCYQ" target="_blank">It's your voodoo working</a><br/> -->
+    <!-- Canned Heat        <a href="https://www.youtube.com/watch?v=kenwhJoWzVk" target="_blank">Shake Rattle and Roll</a><br/> -->
+    <!-- Black Crowes       <a href="https://www.youtube.com/watch?v=FS28tWgN9po" target="_blank">Woke up this morning</a> | <a class= "lyrics_link" href="lyrics\Woke_up.pdf" target="_blank">Lyrics</a><br/> -->
+    <!-- Red Devils <a href="https://youtu.be/bftj8lOjp4s" target="_blank">I've been wrong</a><br> -->
+    <!-- Fleetwood Mac <a href="https://youtu.be/8bJKqjlQBQE" target="_blank">Leaving town blues</a><br> -->
+    <!-- Josh Smith <a href="https://youtu.be/VlRFkLqeuJE" target="_blank">Brown Gatton</a><br> -->
+    <!-- The 5,6,7,8s        <a href="https://youtu.be/7DJv0rx5g-c" target="_blank">Woo Hoo</a><br> -->
+    <!-- Bluesbreakers <a href="https://youtu.be/PkulcvRkd4I" target="_blank">Steppin' out</a><br> -->
+    <!-- Muddy Waters        <a href="https://youtu.be/vD0gk4pcUvY" target="_blank">I'm a King Bee</a><br> -->
+    <!-- Shine on you Crazy Diamond <a href="https://youtu.be/bzhXl_OpWb4" target="_blank">Como tocar</a><br> -->
+    <!-- Stranglers         <a href="https://www.youtube.com/watch?v=y6k3tNNRS_I" target="_blank">All of the day and all of the night</a><br/> -->
+    <!-- Buddy Miles         <a href="https://youtu.be/w05CYrXe4p4" target="_blank">Them Changes</a> | <a class= "lyrics_link" href="lyrics\them_changes.pdf" target="_blank">Lyrics</a><br/> -->
+    <!-- Govt Mule          <a href="https://youtu.be/NTeKnM7AYOw" target="_blank">I Don't Need no Doctor</a> | <a class= "lyrics_link" href="lyrics/I_dont_need_no_Doctor.pdf" target="_blank">Lyrics</a><br/> -->
+    <!-- Pearl Jam          <a href="https://youtu.be/CWeYpF9tHRY" target="_blank">Leaving Here</a> | <a class= "lyrics_link" href="lyrics/leavin_here.pdf" target="_blank">Lyrics</a><br/> -->
+    <!-- el Vis             <a href="https://www.youtube.com/watch?v=9v6amx7HjbE" target="_blank">Suspicious Minds</a> | <a class= "lyrics_link" href="lyrics/susminds_chords.pdf" target="_blank">Acordes</a><br/> -->
+    <!-- Los Lobos          <a href="https://www.youtube.com/watch?v=RTKaQOx029s" target="_blank">Don't Worry Baby</a> | <a class= "lyrics_link" href="lyrics\Dont_worry_baby_structure.pdf" target="_blank">Estructura</a><br/> -->
+    <!-- Dee Dee Warwick     <a href="https://youtu.be/_xUisVuPt8M" target="_blank">You're no good</a><br> -->
+    <!-- Canned Heat        <a href="https://www.youtube.com/watch?v=YBDQq66lTEs" target="_blank">The Hunter</a><br/> -->
+    <!-- John Lee Hooker    <a href="https://www.youtube.com/watch?v=tnPnrtKn9fY" target="_blank">Shake it baby</a><br/>
+        John Lee Hooker    <a href="https://www.youtube.com/watch?v=jRMzVMe18cA" target="_blank">Blues boogie jam</a><br/> -->
+  </div>
+</body>
+
 </html>

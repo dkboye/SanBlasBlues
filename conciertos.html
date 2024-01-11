@@ -1,142 +1,163 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-        <link href="styles.css" rel="stylesheet">
-        <title>Conciertos</title>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <style>
-        /* Style to change separator  */
-        .breadcrumb-item + .breadcrumb-item::before {
-            content: "";
-        }
-        </style>
-      </head>
-    <body id="homepage" style="background-image: url('photos/weave.JPG')">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="background-image: url('photos/weave.JPG')">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Conciertos</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="setlist.html">Repertorio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="songs.html">Canciones</a>
-                </li>
-                <!-- <li class="nav-item">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <link href="styles.css" rel="stylesheet">
+  <title>Conciertos</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Style to change separator  */
+    .breadcrumb-item+.breadcrumb-item::before {
+      content: "";
+    }
+  </style>
+</head>
+
+<body id="homepage" style="background-image: url('photos/weave.JPG')">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="background-image: url('photos/weave.JPG')">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Conciertos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="setlist.html">Repertorio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="songs.html">Canciones</a>
+          </li>
+          <!-- <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="new_songs.html">Canciones Nuevas</a>
                 </li> -->
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="live.html">En directo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="demo.html">Demo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="notas.html">Notas</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <!-- <div style ="text-align: center;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="live.html">En directo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="demo.html">Demo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="notas.html">Notas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- <div style ="text-align: center;">
           <a id = "conciertos" title = "Download PDF" href="conciertos.pdf" target="_blank">Historico</a>
         </div> -->
-        <table style = "color: black;">
-          <tr>
-            <th>Fecha</th>
-            <th>Sala</th>
-            <th>€</th>
-          </tr>
-          <tr>
-            <td>21-apr-23</td>
-            <td>Sonic Boom</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>18-jun-22</td>
-            <td>Caspueñas</td>
-            <td>450</td>
-          </tr>
-          <tr>
-            <td>28-may-22</td>
-            <td>Sonic Boom</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>20-nov-21</td>
-            <td>Rock & Pop</td>
-            <td>210</td>
-          </tr>
-          <tr>
-            <td>24-oct-19</td>
-            <td>Handyman</td>
-            <td>250</td>
-          </tr>
-          <tr>
-            <td>28-sep-19</td>
-            <td>Rock & Pop</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>29-jun-19</td>
-            <td>Caspueñas</td>
-            <td>200</td>
-          </tr>
-          <tr>
-            <td>22-jun-19</td>
-            <td>Handyman</td>
-            <td>350</td>
-          </tr>
-          <tr>
-            <td>15-jun-19</td>
-            <td>Rock & Pop</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>11-abr-19</td>
-            <td>Handyman</td>
-            <td>300</td>
-          </tr>
-          <tr>
-            <td>28-jun-18</td>
-            <td>Rock & Pop</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>08-jun-18</td>
-            <td>Sala la Mala</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>20-abr-18</td>
-            <td>Rock & Pop</td>
-            <td>370</td>
-          </tr>
-          <tr>
-            <td>06-may-17</td>
-            <td>Rock & Pop</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>28-ene-17</td>
-            <td>Irish Rover</td>
-            <td>-</td>
-          </tr>
-        </table> 
-    </body>
-  </html>
+  <table style="color: black;">
+    <tr>
+      <th>Fecha</th>
+      <th>Sala</th>
+      <th>€</th>
+    </tr>
+    <tr>
+      <td>01-dic-23</td>
+      <td>Rock and Pop</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td>15-jul-23</td>
+      <td>Caspueñas</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>21-apr-23</td>
+      <td>Sonic Boom</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>18-jun-22</td>
+      <td>Caspueñas</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>28-may-22</td>
+      <td>Sonic Boom</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>20-nov-21</td>
+      <td>Rock & Pop</td>
+      <td>210</td>
+    </tr>
+    <tr>
+      <td>24-oct-19</td>
+      <td>Handyman</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>28-sep-19</td>
+      <td>Rock & Pop</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>29-jun-19</td>
+      <td>Caspueñas</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>22-jun-19</td>
+      <td>Handyman</td>
+      <td>350</td>
+    </tr>
+    <tr>
+      <td>15-jun-19</td>
+      <td>Rock & Pop</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>11-abr-19</td>
+      <td>Handyman</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>28-jun-18</td>
+      <td>Rock & Pop</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>08-jun-18</td>
+      <td>Sala la Mala</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>20-abr-18</td>
+      <td>Rock & Pop</td>
+      <td>370</td>
+    </tr>
+    <tr>
+      <td>06-may-17</td>
+      <td>Rock & Pop</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>28-ene-17</td>
+      <td>Irish Rover</td>
+      <td>-</td>
+    </tr>
+  </table>
+</body>
+
+</html>
